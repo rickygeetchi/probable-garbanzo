@@ -1,0 +1,19 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "My first project in Javascript",
+  "main": "src/index.js",
+  "module": "src/main.js",
+  "scripts": {
+    "test": "node -r esm src/main.js"
+  },
+  "keywords": [
+    "first",
+    "project"
+  ],
+  "author": "Roderick Smith",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
